@@ -51,6 +51,10 @@ p {
   display: flex;
 }
 
+.title-container {
+  max-width: 323px;
+}
+
 .text-container {
   padding-top: 47px;
   padding-left: 59px;
