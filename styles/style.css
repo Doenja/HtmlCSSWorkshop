@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -47,27 +50,26 @@ p {
   cursor: pointer;
 }
 
-.container {
-  display: flex;
-}
-
 .title-container {
   max-width: 323px;
+}
+
+.text-container,
+.image-container {
+  height: 100%;
+  width: 50%;
+  position: fixed;
 }
 
 .text-container {
   padding-top: 47px;
   padding-left: 59px;
   padding-right: 72px;
+  left: 0;
 }
 
 .image-container {
   background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-size: cover;
-}
-
-.text-container,
-.image-container {
-  width: 50vw;
-  height: 100vh;
+  right: 0;
 }
