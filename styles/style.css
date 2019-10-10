@@ -14,6 +14,7 @@ h1 {
   line-height: 63px;
   margin: 0;
   margin-bottom: 26px;
+  color: #333;
 }
 
 p {
@@ -26,8 +27,8 @@ p {
 
 .logo {
   width: 134px;
-  position: fixed;
   top: 47px;
+  position: absolute;
 }
 
 .line {
