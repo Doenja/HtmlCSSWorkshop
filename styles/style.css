@@ -4,4 +4,13 @@
 
 body {
   margin: 0;
+  font-family: 'Roboto', 'Open Sans';
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #333;
 }
