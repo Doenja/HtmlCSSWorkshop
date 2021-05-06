@@ -9,8 +9,39 @@ body {
 
 h1 {
   color: #333;
+  font-size: 60px;
+  line-height: 63px;
+  font-weight: normal;
 }
 
 p {
   color: #333;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.btn-primary {
+  background: #ea9e9c;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  padding: 18px 30px;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(172, 80, 76);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 48px 60px;
+}
+
+.textcontent {
+  max-width: 444px;
 }
